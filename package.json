@@ -2,8 +2,8 @@
   "name": "js-ts-monotrepos",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:mike-north/js-ts-monorepos.git",
-  "author": "Mike North <michael.l.north@gmail.com>",
+  "repository": "git@github.com:jsflor/js-ts-monorepos.git",
+  "author": "Sebastian Flor <jsflor97@gmail.com>",
   "license": "BSD-2-Clause",
   "private": true,
   "workspaces": [
@@ -15,5 +15,8 @@
   "volta": {
     "node": "16.14.2",
     "yarn": "1.22.18"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }
